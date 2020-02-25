@@ -1,8 +1,10 @@
 using System;
-// 12-02-2020 04:17:13
 
-namespace autodumper {
-    public const Int32 timestamp = 15814702335778408
+// 2020-02-25 01:19:46.218689600 UTC
+
+namespace autodumper
+{
+    public const Int32 timestamp = 1582593586;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -32,12 +34,17 @@ namespace autodumper {
         public const Int32 m_bSpotted = 0x93D;
         public const Int32 m_bSpottedByMask = 0x980;
         public const Int32 m_bStartedArming = 0x33E0;
+        public const Int32 m_bUseCustomAutoExposureMax = 0x9D9;
+        public const Int32 m_bUseCustomAutoExposureMin = 0x9D8;
+        public const Int32 m_bUseCustomBloomScale = 0x9DA;
         public const Int32 m_clrRender = 0x70;
         public const Int32 m_dwBoneMatrix = 0x26A8;
         public const Int32 m_fAccuracyPenalty = 0x3320;
         public const Int32 m_fFlags = 0x104;
-        public const Int32 m_fRoundStartTime = 0x4C;
         public const Int32 m_flC4Blow = 0x2990;
+        public const Int32 m_flCustomAutoExposureMax = 0x9E0;
+        public const Int32 m_flCustomAutoExposureMin = 0x9DC;
+        public const Int32 m_flCustomBloomScale = 0x9E4;
         public const Int32 m_flDefuseCountDown = 0x29AC;
         public const Int32 m_flDefuseLength = 0x29A8;
         public const Int32 m_flFallbackWear = 0x31C0;
@@ -76,7 +83,6 @@ namespace autodumper {
         public const Int32 m_nFallbackSeed = 0x31BC;
         public const Int32 m_nFallbackStatTrak = 0x31C4;
         public const Int32 m_nForceBone = 0x268C;
-        public const Int32 m_nSurvivalTeam = 0xA3B0;
         public const Int32 m_nTickBase = 0x342C;
         public const Int32 m_rgflCoordinateFrame = 0x444;
         public const Int32 m_szCustomName = 0x303C;
@@ -89,6 +95,7 @@ namespace autodumper {
     }
     public static class signatures
     {
+        public const Int32 anim_overlays = 0x2980;
         public const Int32 clientstate_choked_commands = 0x4D28;
         public const Int32 clientstate_delta_ticks = 0x174;
         public const Int32 clientstate_last_outgoing_command = 0x4D24;
@@ -103,45 +110,47 @@ namespace autodumper {
         public const Int32 dwClientState_PlayerInfo = 0x52B8;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D88;
-        public const Int32 dwEntityList = 0x4D3C7BC;
-        public const Int32 dwForceAttack = 0x316DD80;
-        public const Int32 dwForceAttack2 = 0x316DD8C;
-        public const Int32 dwForceBackward = 0x316DDD4;
-        public const Int32 dwForceForward = 0x316DDB0;
-        public const Int32 dwForceJump = 0x51E0004;
-        public const Int32 dwForceLeft = 0x316DDC8;
-        public const Int32 dwForceRight = 0x316DDEC;
+        public const Int32 dwEntityList = 0x4D4387C;
+        public const Int32 dwForceAttack = 0x3174E1C;
+        public const Int32 dwForceAttack2 = 0x3174E28;
+        public const Int32 dwForceBackward = 0x3174E64;
+        public const Int32 dwForceForward = 0x3174E70;
+        public const Int32 dwForceJump = 0x51ED498;
+        public const Int32 dwForceLeft = 0x3174E88;
+        public const Int32 dwForceRight = 0x3174E7C;
         public const Int32 dwGameDir = 0x6274F8;
-        public const Int32 dwGameRulesProxy = 0x52532EC;
-        public const Int32 dwGetAllClasses = 0xD4ED9C;
+        public const Int32 dwGameRulesProxy = 0x526078C;
+        public const Int32 dwGetAllClasses = 0xD55D5C;
         public const Int32 dwGlobalVars = 0x588AA0;
-        public const Int32 dwGlowObjectManager = 0x527DFA0;
-        public const Int32 dwInput = 0x5187980;
-        public const Int32 dwInterfaceLinkList = 0x8F4084;
-        public const Int32 dwLocalPlayer = 0xD28B74;
-        public const Int32 dwMouseEnable = 0xD2E718;
-        public const Int32 dwMouseEnablePtr = 0xD2E6E8;
-        public const Int32 dwPlayerResource = 0x316C10C;
-        public const Int32 dwRadarBase = 0x517152C;
-        public const Int32 dwSensitivity = 0xD2E5B4;
-        public const Int32 dwSensitivityPtr = 0xD2E588;
-        public const Int32 dwSetClanTag = 0x89D60;
-        public const Int32 dwViewMatrix = 0x4D2E0E4;
-        public const Int32 dwWeaponTable = 0x5188440;
+        public const Int32 dwGlowObjectManager = 0x528B6B8;
+        public const Int32 dwInput = 0x5194E00;
+        public const Int32 dwInterfaceLinkList = 0x8FA3F4;
+        public const Int32 dwLocalPlayer = 0xD2FB74;
+        public const Int32 dwMouseEnable = 0xD35718;
+        public const Int32 dwMouseEnablePtr = 0xD356E8;
+        public const Int32 dwPlayerResource = 0x31731CC;
+        public const Int32 dwRadarBase = 0x51785EC;
+        public const Int32 dwSensitivity = 0xD355B4;
+        public const Int32 dwSensitivityPtr = 0xD35588;
+        public const Int32 dwSetClanTag = 0x89E00;
+        public const Int32 dwViewMatrix = 0x4D351A4;
+        public const Int32 dwWeaponTable = 0x51958C0;
         public const Int32 dwWeaponTableIndex = 0x324C;
-        public const Int32 dwYawPtr = 0xD2E378;
-        public const Int32 dwZoomSensitivityRatioPtr = 0xD33598;
-        public const Int32 dwbSendPackets = 0xD37DA;
+        public const Int32 dwYawPtr = 0xD35378;
+        public const Int32 dwZoomSensitivityRatioPtr = 0xD3A5C0;
+        public const Int32 dwbSendPackets = 0xD394A;
         public const Int32 dwppDirect3DDevice9 = 0xA6030;
-        public const Int32 force_update_spectator_glow = 0x398642;
+        public const Int32 find_hud_element = 0x52E0BE00;
+        public const Int32 force_update_spectator_glow = 0x3989E2;
         public const Int32 interface_engine_cvar = 0x3E9EC;
-        public const Int32 is_c4_owner = 0x3A4A70;
+        public const Int32 is_c4_owner = 0x3A51C0;
         public const Int32 m_bDormant = 0xED;
+        public const Int32 m_flSpawnTime = 0xA360;
         public const Int32 m_pStudioHdr = 0x294C;
-        public const Int32 m_pitchClassPtr = 0x51717D0;
-        public const Int32 m_yawClassPtr = 0xD2E378;
+        public const Int32 m_pitchClassPtr = 0x5178890;
+        public const Int32 m_yawClassPtr = 0xD35378;
         public const Int32 model_ambient_min = 0x58BDBC;
-        public const Int32 set_abs_angles = 0x1CED30;
-        public const Int32 set_abs_origin = 0x1CEB70;
+        public const Int32 set_abs_angles = 0x1CEDC0;
+        public const Int32 set_abs_origin = 0x1CEC00;
     }
 } // namespace autodumper
