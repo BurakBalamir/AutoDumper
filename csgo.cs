@@ -110,7 +110,7 @@ namespace autodumper
         public const Int32 dwClientState_PlayerInfo = 0x52B8;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D88;
-        public const Int32 dwEntityList = 0x4D4B154;
+        public const Int32 dwEntityList = 0x4D4B104;
         public const Int32 dwForceAttack = 0x317C70C;
         public const Int32 dwForceAttack2 = 0x317C718;
         public const Int32 dwForceBackward = 0x317C760;
@@ -133,7 +133,7 @@ namespace autodumper
         public const Int32 dwSensitivity = 0xD3C5D4;
         public const Int32 dwSensitivityPtr = 0xD3C5A8;
         public const Int32 dwSetClanTag = 0x89F00;
-        public const Int32 dwViewMatrix = 0x4D3CA84;
+        public const Int32 dwViewMatrix = 0x4D3CA34;
         public const Int32 dwWeaponTable = 0x519D1AC;
         public const Int32 dwWeaponTableIndex = 0x325C;
         public const Int32 dwYawPtr = 0xD3C398;
