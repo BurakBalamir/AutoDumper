@@ -122,7 +122,7 @@ namespace autodumper
         public const Int32 dwGameRulesProxy = 0x52680CC;
         public const Int32 dwGetAllClasses = 0xD5CF8C;
         public const Int32 dwGlobalVars = 0x589AD8;
-        public const Int32 dwGlowObjectManager = 0x5292F38;
+        public const Int32 dwGlowObjectManager = 0x5292F20;
         public const Int32 dwInput = 0x519C6E8;
         public const Int32 dwInterfaceLinkList = 0x8FFF74;
         public const Int32 dwLocalPlayer = 0xD36B94;
