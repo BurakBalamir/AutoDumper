@@ -1,10 +1,10 @@
 using System;
 
-// 2020-07-24 16:11:35.546097200 UTC
+// 2020-08-07 10:11:41.226410900 UTC
 
 namespace autodumper
 {
-    public const Int32 timestamp = 15967631573413699
+    public const Int32 timestamp = 1596795101;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -41,8 +41,6 @@ namespace autodumper
         public const Int32 m_dwBoneMatrix = 0x26A8;
         public const Int32 m_fAccuracyPenalty = 0x3330;
         public const Int32 m_fFlags = 0x104;
-        public const Int32 m_fRoundStartTime = 0x4C;
-        public const Int32 m_fWarmupPeriodEnd = 0x24;
         public const Int32 m_flC4Blow = 0x2990;
         public const Int32 m_flCustomAutoExposureMax = 0x9E0;
         public const Int32 m_flCustomAutoExposureMin = 0x9DC;
@@ -59,14 +57,12 @@ namespace autodumper
         public const Int32 m_flSimulationTime = 0x268;
         public const Int32 m_flTimerLength = 0x2994;
         public const Int32 m_hActiveWeapon = 0x2EF8;
-        public const Int32 m_hBombDefuser = 0x29B4;
         public const Int32 m_hMyWeapons = 0x2DF8;
         public const Int32 m_hObserverTarget = 0x338C;
         public const Int32 m_hOwner = 0x29CC;
         public const Int32 m_hOwnerEntity = 0x14C;
         public const Int32 m_iAccountID = 0x2FC8;
         public const Int32 m_iClip1 = 0x3264;
-        public const Int32 m_iCompetitiveRankType = 0x1C8C;
         public const Int32 m_iCompetitiveRanking = 0x1A84;
         public const Int32 m_iCompetitiveWins = 0x1B88;
         public const Int32 m_iCrosshairId = 0xB3E4;
@@ -79,8 +75,6 @@ namespace autodumper
         public const Int32 m_iItemIDHigh = 0x2FC0;
         public const Int32 m_iMostRecentModelBoneCounter = 0x2690;
         public const Int32 m_iObserverMode = 0x3378;
-        public const Int32 m_iPrimaryReserveAmmoCount = 0x326C;
-        public const Int32 m_iRoundTime = 0x44;
         public const Int32 m_iShotsFired = 0xA390;
         public const Int32 m_iState = 0x3258;
         public const Int32 m_iTeamNum = 0xF4;
@@ -89,7 +83,6 @@ namespace autodumper
         public const Int32 m_nFallbackSeed = 0x31CC;
         public const Int32 m_nFallbackStatTrak = 0x31D4;
         public const Int32 m_nForceBone = 0x268C;
-        public const Int32 m_nSurvivalTeam = 0xA3C0;
         public const Int32 m_nTickBase = 0x3430;
         public const Int32 m_rgflCoordinateFrame = 0x444;
         public const Int32 m_szCustomName = 0x303C;
@@ -147,7 +140,7 @@ namespace autodumper
         public const Int32 dwZoomSensitivityRatioPtr = 0xD4A700;
         public const Int32 dwbSendPackets = 0xD423A;
         public const Int32 dwppDirect3DDevice9 = 0xA7030;
-        public const Int32 find_hud_element = 0x62784310;
+        public const Int32 find_hud_element = 0x27D64310;
         public const Int32 force_update_spectator_glow = 0x3A3242;
         public const Int32 interface_engine_cvar = 0x3E9EC;
         public const Int32 is_c4_owner = 0x3AFCD0;
