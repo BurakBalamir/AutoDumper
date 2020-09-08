@@ -4,7 +4,7 @@ using System;
 
 namespace autodumper
 {
-    public const Int32 timestamp = 15985797950619381
+    public const Int32 timestamp = 15990050522005547
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -147,7 +147,7 @@ namespace autodumper
         public const Int32 dwZoomSensitivityRatioPtr = 0xD4A700;
         public const Int32 dwbSendPackets = 0xD418A;
         public const Int32 dwppDirect3DDevice9 = 0xA7030;
-        public const Int32 find_hud_element = 0x62904F10;
+        public const Int32 find_hud_element = 0x62A04F10;
         public const Int32 force_update_spectator_glow = 0x3A3E82;
         public const Int32 interface_engine_cvar = 0x3E9EC;
         public const Int32 is_c4_owner = 0x3B0910;
