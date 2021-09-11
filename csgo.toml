@@ -1,4 +1,4 @@
-timestamp = 1631379493
+timestamp = 1631379647
 
 [signatures]
 anim_overlays = 10624
@@ -46,7 +46,7 @@ dwYawPtr = 14228088
 dwZoomSensitivityRatioPtr = 14249240
 dwbSendPackets = 882586
 dwppDirect3DDevice9 = 684112
-find_hud_element = 661065568
+find_hud_element = 655953760
 force_update_spectator_glow = 3871114
 interface_engine_cvar = 256492
 is_c4_owner = 3923408
